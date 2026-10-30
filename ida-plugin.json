@@ -1,11 +1,31 @@
+
 {
+  "$schema": "https://hcli.docs.hex-rays.com/schemas/ida-plugin.json",
   "IDAMetadataDescriptorVersion": 1,
   "plugin": {
     "name": "QtMetaParser",
+    "version": "1.0.0",
     "entryPoint": "QtMetaParser.py",
+    "description": "Qt6 MetaObject parser for IDA Pro.",
+    "idaVersions": ["9.1", "9.2", "9.3", "9.4", "9.5"],
     "license": "MIT",
+    "categories": [
+      "file-parsers-and-loaders"
+    ],
+    "keywords": [
+      "reverse-engineering",
+      "qt",
+      "qt6",
+      "metaobject"
+    ],
     "urls": {
       "repository": "https://github.com/EEEEhex/QtMetaParser"
-    }
+    },
+    "authors": [
+      {
+        "name": "EEEEhex",
+        "email": "EEEEhex@noreply.com"
+      }
+    ]
   }
 }
